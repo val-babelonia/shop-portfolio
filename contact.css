@@ -42,7 +42,7 @@ body {
       right: -10px;
       border: 2px solid black;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       flex-wrap: wrap;
       background-color: whitesmoke;
       padding-top: 20px;
