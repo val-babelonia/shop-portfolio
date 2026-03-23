@@ -41,8 +41,9 @@ body {
       position: relative;
       right: -10px;
       border: 2px solid black;
-      display: inline-block;
-      word-spacing: 340px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
       background-color: whitesmoke;
       padding-top: 20px;
       padding-bottom: 20px;
