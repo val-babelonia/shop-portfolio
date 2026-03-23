@@ -143,4 +143,67 @@ body {
   position: relative;
   float: left;
    padding-left: 300px;
+}    
+
+/* Responsive for tablets and phones */
+@media (max-width: 768px) {
+
+  /* Center title and reduce padding */
+  #title {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+
+  /* Images float to center and scale */
+  img {
+    float: none;
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    padding-right: 0;
+    padding-top: 20px;
+  }
+
+  /* Option boxes stack vertically */
+  #option, #option2 {
+    float: none;
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-spacing: normal;
+  }
+
+  /* Box elements stack and scale */
+  #box, #box2, #box3, #box4 {
+    float: none;
+    display: block;
+    margin: 20px auto;
+    padding-left: 0;
+    padding-right: 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Open button center */
+  .open {
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  /* Body background scales */
+  body {
+    background-size: cover; /* scales background proportionally */
+  }
+
+  /* Details and text padding */
+  details, .bgtext {
+    padding-left: 10px;
+  }
 }
