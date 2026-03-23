@@ -1,6 +1,6 @@
 #title {
     text-align: center;
-    padding-left: 380px;
+    padding-left: 30vw;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 20px;
@@ -17,7 +17,7 @@
 
 img {
     float: right;
-   padding-right: 25%;
+   padding-right: 25vw;
    padding-top: 4%;
    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
    
