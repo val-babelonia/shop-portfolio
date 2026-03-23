@@ -69,9 +69,8 @@ p {
     position: relative;
     right: -10px;
     mix-blend-mode: initial;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: inline-block;
+    word-spacing: 340px;
     background-color: whitesmoke;
     padding-top: 5px;
     padding-bottom: 5px;
